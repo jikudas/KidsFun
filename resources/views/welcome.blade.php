@@ -55,6 +55,16 @@
         <li class="nav-item"><a href="#" class="nav-link text-white nav_list">pages</a></li>
         <li class="nav-item"><a href="#" class="nav-link text-white nav_list">blog</a></li>
         <li class="nav-item"><a href="#" class="nav-link text-white nav_list">contact</a></li>
+        <li class="nav-item">
+        <a href="#" class="nav-link text-white nav_list">
+          My Account
+          <i class="fa fa-angle-down"></i>
+        </a>
+        <ul class="menu_selection">
+          <li><a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i>Sign In</a></li>
+          <li><a href="#"><i class="fa fa-user-plus" aria-hidden="true"></i>Register</a></li>
+        </ul>
+      </li>
       </ul>
     </div>
   </div>
@@ -71,21 +81,19 @@
     <div class="row">
       <div class="col text-center">
         <div class="section_title">
-          <h2>Popular Books</h2>
+          <h4>Popular Books</h4>
         </div>
       </div>
     </div>
-      <div class="row area_border" style="justify-content:center; align-items:center">
+      <div class="row  d-flex justify-content-around">
       <div class="product-item women">
             <div class="product product_filter">
               <div class="product_image">
-                <img src="{{asset('frontend/images/product_2.png')}}" alt="">
+                <img src="{{asset('frontend/images/cover.jpg')}}" alt="">
               </div>
               <div class="favorite"></div>
-              <div class="product_bubble product_bubble_left product_bubble_green d-flex flex-column align-items-center"><span>new</span></div>
               <div class="product_info">
-                <h6 class="product_name"><a href="#">Samsung CF591 Series Curved 27-Inch FHD Monitor</a></h6>
-                <div class="product_price">$610.00</div>
+                <h6 class="product_name"><a href="#">নভেরা বিভুঁইয়ে স্বভূমে - আনা ইসলাম</a></h6>
               </div>
             </div>
             <div class="red_button add_to_cart_button"><a href="#">add to cart</a></div>
@@ -94,13 +102,11 @@
           <div class="product-item women">
             <div class="product product_filter">
               <div class="product_image">
-                <img src="{{asset('frontend/images/product_2.png')}}" alt="">
+                <img src="{{asset('frontend/images/cover.jpg')}}" alt="">
               </div>
               <div class="favorite"></div>
-              <div class="product_bubble product_bubble_left product_bubble_green d-flex flex-column align-items-center"><span>new</span></div>
               <div class="product_info">
-                <h6 class="product_name"><a href="#">Samsung CF591 Series Curved 27-Inch FHD Monitor</a></h6>
-                <div class="product_price">$610.00</div>
+                <h6 class="product_name"><a href="#">নভেরা বিভুঁইয়ে স্বভূমে - আনা ইসলাম</a></h6>
               </div>
             </div>
             <div class="red_button add_to_cart_button"><a href="#">add to cart</a></div>
@@ -109,13 +115,11 @@
           <div class="product-item women">
             <div class="product product_filter">
               <div class="product_image">
-                <img src="{{asset('frontend/images/product_2.png')}}" alt="">
+                <img src="{{asset('frontend/images/cover.jpg')}}" alt="">
               </div>
               <div class="favorite"></div>
-              <div class="product_bubble product_bubble_left product_bubble_green d-flex flex-column align-items-center"><span>new</span></div>
               <div class="product_info">
-                <h6 class="product_name"><a href="#">Samsung CF591 Series Curved 27-Inch FHD Monitor</a></h6>
-                <div class="product_price">$610.00</div>
+                <h6 class="product_name"><a href="#">নভেরা বিভুঁইয়ে স্বভূমে - আনা ইসলাম</a></h6>
               </div>
             </div>
             <div class="red_button add_to_cart_button"><a href="#">add to cart</a></div>
@@ -124,30 +128,26 @@
           <div class="product-item women">
             <div class="product product_filter">
               <div class="product_image">
-                <img src="{{asset('frontend/images/product_2.png')}}" alt="">
+                <img src="{{asset('frontend/images/cover.jpg')}}" alt="">
               </div>
               <div class="favorite"></div>
-              <div class="product_bubble product_bubble_left product_bubble_green d-flex flex-column align-items-center"><span>new</span></div>
-              <div class="product_info">
-                <h6 class="product_name"><a href="#">Samsung CF591 Series Curved 27-Inch FHD Monitor</a></h6>
-                <div class="product_price">$610.00</div>
+             <div class="product_info">
+                <h6 class="product_name"><a href="#">নভেরা বিভুঁইয়ে স্বভূমে - আনা ইসলাম</a></h6>
               </div>
             </div>
             <div class="red_button add_to_cart_button"><a href="#">add to cart</a></div>
           </div>
       </div>
 
-      <div class="row area_border" style="justify-content:center; align-items:center">
+      <div class="row  d-flex justify-content-around">
       <div class="product-item women">
             <div class="product product_filter">
               <div class="product_image">
-                <img src="{{asset('frontend/images/product_2.png')}}" alt="">
+                <img src="{{asset('frontend/images/cover.jpg')}}" alt="">
               </div>
               <div class="favorite"></div>
-              <div class="product_bubble product_bubble_left product_bubble_green d-flex flex-column align-items-center"><span>new</span></div>
               <div class="product_info">
-                <h6 class="product_name"><a href="#">Samsung CF591 Series Curved 27-Inch FHD Monitor</a></h6>
-                <div class="product_price">$610.00</div>
+                <h6 class="product_name"><a href="#">নভেরা বিভুঁইয়ে স্বভূমে - আনা ইসলাম</a></h6>
               </div>
             </div>
             <div class="red_button add_to_cart_button"><a href="#">add to cart</a></div>
@@ -156,13 +156,11 @@
           <div class="product-item women">
             <div class="product product_filter">
               <div class="product_image">
-                <img src="{{asset('frontend/images/product_2.png')}}" alt="">
+                <img src="{{asset('frontend/images/cover.jpg')}}" alt="">
               </div>
               <div class="favorite"></div>
-              <div class="product_bubble product_bubble_left product_bubble_green d-flex flex-column align-items-center"><span>new</span></div>
               <div class="product_info">
-                <h6 class="product_name"><a href="#">Samsung CF591 Series Curved 27-Inch FHD Monitor</a></h6>
-                <div class="product_price">$610.00</div>
+                <h6 class="product_name"><a href="#">নভেরা বিভুঁইয়ে স্বভূমে - আনা ইসলাম</a></h6>
               </div>
             </div>
             <div class="red_button add_to_cart_button"><a href="#">add to cart</a></div>
@@ -171,13 +169,11 @@
           <div class="product-item women">
             <div class="product product_filter">
               <div class="product_image">
-                <img src="{{asset('frontend/images/product_2.png')}}" alt="">
+                <img src="{{asset('frontend/images/cover.jpg')}}" alt="">
               </div>
               <div class="favorite"></div>
-              <div class="product_bubble product_bubble_left product_bubble_green d-flex flex-column align-items-center"><span>new</span></div>
               <div class="product_info">
-                <h6 class="product_name"><a href="#">Samsung CF591 Series Curved 27-Inch FHD Monitor</a></h6>
-                <div class="product_price">$610.00</div>
+                <h6 class="product_name"><a href="#">নভেরা বিভুঁইয়ে স্বভূমে - আনা ইসলাম</a></h6>
               </div>
             </div>
             <div class="red_button add_to_cart_button"><a href="#">add to cart</a></div>
@@ -186,30 +182,26 @@
           <div class="product-item women">
             <div class="product product_filter">
               <div class="product_image">
-                <img src="{{asset('frontend/images/product_2.png')}}" alt="">
+                <img src="{{asset('frontend/images/cover.jpg')}}" alt="">
               </div>
               <div class="favorite"></div>
-              <div class="product_bubble product_bubble_left product_bubble_green d-flex flex-column align-items-center"><span>new</span></div>
               <div class="product_info">
-                <h6 class="product_name"><a href="#">Samsung CF591 Series Curved 27-Inch FHD Monitor</a></h6>
-                <div class="product_price">$610.00</div>
+                <h6 class="product_name"><a href="#">নভেরা বিভুঁইয়ে স্বভূমে - আনা ইসলাম</a></h6>
               </div>
             </div>
             <div class="red_button add_to_cart_button"><a href="#">add to cart</a></div>
           </div>
       </div>
 
-      <div class="row area_border" style="justify-content:center; align-items:center">
+      <div class="row  d-flex justify-content-around">
       <div class="product-item women">
             <div class="product product_filter">
               <div class="product_image">
-                <img src="{{asset('frontend/images/product_2.png')}}" alt="">
+                <img src="{{asset('frontend/images/cover.jpg')}}" alt="">
               </div>
               <div class="favorite"></div>
-              <div class="product_bubble product_bubble_left product_bubble_green d-flex flex-column align-items-center"><span>new</span></div>
               <div class="product_info">
-                <h6 class="product_name"><a href="#">Samsung CF591 Series Curved 27-Inch FHD Monitor</a></h6>
-                <div class="product_price">$610.00</div>
+                <h6 class="product_name"><a href="#">নভেরা বিভুঁইয়ে স্বভূমে - আনা ইসলাম</a></h6>
               </div>
             </div>
             <div class="red_button add_to_cart_button"><a href="#">add to cart</a></div>
@@ -218,13 +210,11 @@
           <div class="product-item women">
             <div class="product product_filter">
               <div class="product_image">
-                <img src="{{asset('frontend/images/product_2.png')}}" alt="">
+                <img src="{{asset('frontend/images/cover.jpg')}}" alt="">
               </div>
               <div class="favorite"></div>
-              <div class="product_bubble product_bubble_left product_bubble_green d-flex flex-column align-items-center"><span>new</span></div>
               <div class="product_info">
-                <h6 class="product_name"><a href="#">Samsung CF591 Series Curved 27-Inch FHD Monitor</a></h6>
-                <div class="product_price">$610.00</div>
+                <h6 class="product_name"><a href="#">নভেরা বিভুঁইয়ে স্বভূমে - আনা ইসলাম</a></h6>
               </div>
             </div>
             <div class="red_button add_to_cart_button"><a href="#">add to cart</a></div>
@@ -233,13 +223,11 @@
           <div class="product-item women">
             <div class="product product_filter">
               <div class="product_image">
-                <img src="{{asset('frontend/images/product_2.png')}}" alt="">
+                <img src="{{asset('frontend/images/cover.jpg')}}" alt="">
               </div>
               <div class="favorite"></div>
-              <div class="product_bubble product_bubble_left product_bubble_green d-flex flex-column align-items-center"><span>new</span></div>
               <div class="product_info">
-                <h6 class="product_name"><a href="#">Samsung CF591 Series Curved 27-Inch FHD Monitor</a></h6>
-                <div class="product_price">$610.00</div>
+                <h6 class="product_name"><a href="#">নভেরা বিভুঁইয়ে স্বভূমে - আনা ইসলাম</a></h6>
               </div>
             </div>
             <div class="red_button add_to_cart_button"><a href="#">add to cart</a></div>
@@ -248,13 +236,11 @@
           <div class="product-item women">
             <div class="product product_filter">
               <div class="product_image">
-                <img src="{{asset('frontend/images/product_2.png')}}" alt="">
+                <img src="{{asset('frontend/images/cover.jpg')}}" alt="">
               </div>
               <div class="favorite"></div>
-              <div class="product_bubble product_bubble_left product_bubble_green d-flex flex-column align-items-center"><span>new</span></div>
               <div class="product_info">
-                <h6 class="product_name"><a href="#">Samsung CF591 Series Curved 27-Inch FHD Monitor</a></h6>
-                <div class="product_price">$610.00</div>
+                <h6 class="product_name"><a href="#">নভেরা বিভুঁইয়ে স্বভূমে - আনা ইসলাম</a></h6>
               </div>
             </div>
             <div class="red_button add_to_cart_button"><a href="#">add to cart</a></div>
@@ -264,17 +250,15 @@
 
 
     <div class="col-3 area_border" >
-      <div class="row" style="justify-content:center; align-items:center">
+      <div class="row d-flex justify-content-around">
       <div class="women">
             <div class="product product_filter">
               <div class="product_image">
-                <img src="{{asset('frontend/images/product_2.png')}}" alt="">
+                <img src="{{asset('frontend/images/cover.jpg')}}" alt="">
               </div>
               <div class="favorite"></div>
-              <div class="product_bubble product_bubble_left product_bubble_green d-flex flex-column align-items-center"><span>new</span></div>
               <div class="product_info">
-                <h6 class="product_name"><a href="#">Samsung CF591 Series Curved 27-Inch FHD Monitor</a></h6>
-                <div class="product_price">$610.00</div>
+                <h6 class="product_name"><a href="#">নভেরা বিভুঁইয়ে স্বভূমে - আনা ইসলাম</a></h6>
               </div>
             </div>
             <div class="red_button add_to_cart_button"><a href="#">add to cart</a></div>
@@ -287,11 +271,11 @@
 <!-- Videos -->
 
 <div class="container text-center">
-<div class="section_title">
-          <h2>Videos</h2>
-        </div>
+    <div class="section_title">
+      <h4>Videos</h4>
+    </div>
 
-    <div class="row">
+    <div class="row d-flex justify-content-around">
       <div class="col-md-4">
         <img src="{{asset('frontend/images/video_1.jpg')}}" alt="" class="img-fluid">
         <img src="{{asset('frontend/images/play-button.png')}}" class="play-btn" data-toggle="modal" data-target="#exampleModalCenter">
@@ -308,7 +292,7 @@
       </div>
     </div>
 
-    <div class="row">
+    <div class="row d-flex justify-content-around">
       <div class="col-md-4">
         <img src="{{asset('frontend/images/video_1.jpg')}}" alt="" class="img-fluid">
         <img src="{{asset('frontend/images/play-button.png')}}" class="play-btn" data-toggle="modal" data-target="#exampleModalCenter">
@@ -325,7 +309,7 @@
       </div>
     </div>
 
-    <div class="row">
+    <div class="row d-flex justify-content-around">
       <div class="col-md-4">
         <img src="{{asset('frontend/images/video_1.jpg')}}" alt="" class="img-fluid">
         <img src="{{asset('frontend/images/play-button.png')}}" class="play-btn" data-toggle="modal" data-target="#exampleModalCenter">
@@ -366,7 +350,7 @@
     <div class="row">
       <div class="col text-center">
         <div class="section_title">
-          <h2>Latest Blogs</h2>
+          <h4>Latest Blogs</h4>
         </div>
       </div>
     </div>
