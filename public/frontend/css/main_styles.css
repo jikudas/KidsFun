@@ -1361,6 +1361,27 @@ button, input {
 	font-size: 1.25rem;
 }
 
+
+/*********************************
+ Categories
+*********************************/
+.categories {
+	margin-top: 30px;
+}
+
+.category_item {
+	margin-bottom: 13px;
+}
+
+.categories_border {
+	content: '';
+	width: 65%;
+	border-bottom: #bacdb7 2px solid;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	margin-left:15%
+}
+
 /*********************************
  Videos
 *********************************/
