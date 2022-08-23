@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\AdminController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,4 +15,14 @@ use App\Http\Controllers\HomeController;
 |
 */
 
+//Frontend Routes
 Route::get('/', [HomeController::class, 'index']);
+
+
+
+
+
+
+//Backend Routes
+Route::get('/admin', [AdminController::class, 'index']);
+Route::get('/dashboard', [AdminController::class, 'show_dashboard']);

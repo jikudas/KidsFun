@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <title>Ecommerce Template</title>
@@ -52,18 +52,28 @@
       <div class="mx-auto"></div>
       <ul class="navbar-nav">
         <li class="nav-item"><a href="#" class="nav-link text-white nav_list">home</a></li>
-        <li class="nav-item"><a href="#" class="nav-link text-white nav_list">pages</a></li>
         <li class="nav-item"><a href="#" class="nav-link text-white nav_list">blog</a></li>
+        <li class="nav-item">
+          <a href="#" class="nav-link text-white nav_list">
+            Children Books
+            <i class="fa fa-angle-down"></i>
+          </a>
+          <ul class="menu_selection">
+            <li><a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i>Children's Story Books</a></li>
+            <li><a href="#"><i class="fa fa-user-plus" aria-hidden="true"></i>Children's  Colouring Books</a></li>
+            <li><a href="#"><i class="fa fa-user-plus" aria-hidden="true"></i>Children's Educational</a></li>
+          </ul>
+        </li>
         <li class="nav-item"><a href="#" class="nav-link text-white nav_list">contact</a></li>
         <li class="nav-item">
-        <a href="#" class="nav-link text-white nav_list">
-          My Account
-          <i class="fa fa-angle-down"></i>
-        </a>
-        <ul class="menu_selection">
-          <li><a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i>Sign In</a></li>
-          <li><a href="#"><i class="fa fa-user-plus" aria-hidden="true"></i>Register</a></li>
-        </ul>
+          <a href="#" class="nav-link text-white nav_list">
+            My Account
+            <i class="fa fa-angle-down"></i>
+          </a>
+          <ul class="menu_selection">
+            <li><a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i>Sign In</a></li>
+            <li><a href="#"><i class="fa fa-user-plus" aria-hidden="true"></i>Register</a></li>
+          </ul>
       </li>
       </ul>
     </div>
