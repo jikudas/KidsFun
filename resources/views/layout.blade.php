@@ -27,68 +27,75 @@
 </head>
 <body>
 
-<div class="super_container">
+  <div class="super_container">
 
 <!-- Navbar -->
 
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
-  <div class="container">
-    <a href="#" class="navbar-brand text-success nav_logo">Baby Library</a>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+    <div class="container">
+      <a href="{{('/')}}" class="text-uppercase nav_logo">Baby Library</a>
 
-    <button 
-      type="button"
-      class="navbar-toggler"
-      data-bs-target="#navbarNav"
-      data-bs-target="collapse"
-      aria-controls="navbarNav"
-      aria-expanded="false"
-      aria-label="Toggle Navbar"
-      >
+      <button 
+        type="button"
+        class="navbar-toggler"
+        data-bs-target="#navbarNav"
+        data-bs-target="collapse"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle Navbar"
+        >
 
-      <span class="navbar-toggler-icon"></span>
-    </button>
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <div class="mx-auto"></div>
-      <ul class="navbar-nav">
-        <li class="nav-item"><a href="#" class="nav-link text-white nav_list">home</a></li>
-        <li class="nav-item"><a href="#" class="nav-link text-white nav_list">blog</a></li>
-        <li class="nav-item">
-          <a href="#" class="nav-link text-white nav_list">
-            Children Books
-            <i class="fa fa-angle-down"></i>
-          </a>
-          <ul class="menu_selection">
-            <li><a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i>Children's Story Books</a></li>
-            <li><a href="#"><i class="fa fa-user-plus" aria-hidden="true"></i>Children's  Colouring Books</a></li>
-            <li><a href="#"><i class="fa fa-user-plus" aria-hidden="true"></i>Children's Educational</a></li>
-          </ul>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="mx-auto"></div>
+        <ul class="navbar-nav">
+          <li class="nav-item"><a href="{{url('/')}}" class="nav-link nav_list" style="color: #e8ddc3">home</a></li>
+          <li class="nav-item"><a href="{{url('/blog')}}" class="nav-link nav_list" style="color: #e8ddc3">blog</a></li>
+          <li class="nav-item">
+            <div class="dropdown show">
+              <a class="nav-link dropdown-toggle nav_list" style="color: #e8ddc3" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Free Books
+              </a>
+
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="{{url('/')}}">Children's Story Books</a>
+                <a class="dropdown-item" href="{{url('/')}}">Children's  Colouring Books</a>
+                <a class="dropdown-item" href="{{url('/')}}">Children's Educational</a>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item"><a href="#" class="nav-link nav_list" style="color: #e8ddc3">contact</a></li>
+          <li class="nav-item">
+            <div class="dropdown show">
+              <a class="nav-link dropdown-toggle nav_list" style="color: #e8ddc3" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                My Account
+              </a>
+
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="{{url('/admin')}}">Sign In</a>
+                <a class="dropdown-item" href="#">Register</a>
+              </div>
+            </div>
         </li>
-        <li class="nav-item"><a href="#" class="nav-link text-white nav_list">contact</a></li>
-        <li class="nav-item">
-          <a href="#" class="nav-link text-white nav_list">
-            My Account
-            <i class="fa fa-angle-down"></i>
-          </a>
-          <ul class="menu_selection">
-            <li><a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i>Sign In</a></li>
-            <li><a href="#"><i class="fa fa-user-plus" aria-hidden="true"></i>Register</a></li>
-          </ul>
-      </li>
-      </ul>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
 
 
 <!-- Cards and Category -->
+<div>
+  @yield('banner')
+</div>
 
-<div class="main_slider" style="background-image:url({{URL::to('frontend/images/slider_2.jpg')}})"></div>
-
-<div class="container">
+<div class="container" style="margin-top:50px">
   <div class="row">
     <div class="col-8">
       @yield('books')
+      @yield('blog')
+      @yield('full_post')
     </div>
 
     <div class="col-4">
@@ -217,7 +224,6 @@
     </div>
   </div>
 </footer>
-
 </div>
 </body>
 

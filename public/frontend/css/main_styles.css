@@ -613,15 +613,15 @@ section
 	color: #FFFFFF;
 }
 
-.nav_color {
-	color: #fe4c50;
-}
-
 .nav_logo {
+	color: #F5E8E4;
+	font-size: 2rem;
 	font-weight: bold;
+	
 }
 
 .nav_list {
+	font-size: 1rem;
 	text-transform: uppercase;
 	font-weight: bold;
 	text-shadow: 20px 20px #ffffff;
@@ -819,27 +819,12 @@ section
 
 .main_slider
 {
+	background-image: url("/frontend/images/slider_2.jpg");
 	width: 100%;
-	height: 1000px;
+	height: 100vh;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
-	margin-top: -240px;
-}
-.main_slider_content
-{
-	width: 60%;
-}
-.main_slider_content h6
-{
-	font-weight: 500;
-	text-transform: uppercase;
-	margin-bottom: 29px;
-}
-.main_slider_content h1
-{
-	font-weight: 400;
-	line-height: 1;
 }
 .red_button
 {
@@ -1789,4 +1774,41 @@ button, input {
 .footer_social ul li a:hover
 {
 	color: #fe4c50;
+}
+
+
+
+
+
+
+
+
+/*============== BLOG PAGE CSS ==============*/
+
+/* Blog Content Section */
+
+.posts_intro{
+	background-color: #F5F5F5;
+	display: flex;
+	align-items: center;
+	column-gap: 1.5rem;
+	margin-right: 0px;
+	border: .5px solid gray;
+}
+
+.blog_img{
+	width: 20%;
+	height: auto;
+}
+
+h4:hover {
+	color: #6B4E71;
+	font-weight: bold;
+}
+
+
+/*============== DETAILS POST ==============*/
+
+.full_post{
+	margin-top: 25px;
 }

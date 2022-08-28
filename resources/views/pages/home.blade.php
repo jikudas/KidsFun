@@ -1,4 +1,8 @@
 @extends('layout')
+@section('banner')
+  <div class="main_slider"></div>
+@endsection
+
 @section('books')
     <div class="row">
       <div class="col text-center">
@@ -264,7 +268,7 @@
      
       <div class="modal-body">
         <video width="100%" autoplay controls loop>
-          <source src="{{URL::to('frontend/videos/1.mp4')}}" type="video/mp4">
+          <!-- <source src="{{URL::to('frontend/videos/1.mp4')}}" type="video/mp4"> -->
         </video>
       </div>
       
