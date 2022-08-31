@@ -60,7 +60,7 @@
               </a>
 
               <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <a class="dropdown-item" href="{{url('/')}}">Children's Story Books</a>
+                <a class="dropdown-item" href="{{url('/story_books')}}">Children's Story Books</a>
                 <a class="dropdown-item" href="{{url('/')}}">Children's  Colouring Books</a>
                 <a class="dropdown-item" href="{{url('/')}}">Children's Educational</a>
               </div>

@@ -20,4 +20,9 @@ class HomeController extends Controller
     {
         return view('pages.full_post');
     }
+
+    public function story_books()
+    {
+        return view('free_books.story');
+    }
 }

@@ -23,6 +23,8 @@ Route::get('/', [HomeController::class, 'index']);
 // Blog Related Routes
 Route::get('/blog', [HomeController::class, 'blog']);
 Route::get('/full-post', [HomeController::class, 'full_post']);
+Route::get('/story_books', [HomeController::class, 'story_books']);
+
 
 
 
