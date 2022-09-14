@@ -42,7 +42,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</a>
-				<a class="brand" href="index.html"><span>Metro</span></a>
+				<a class="brand" href="index.html"><span>Kids Fun</span></a>
 								
 				<!-- start: Header Menu -->
 				<div class="nav-no-collapse header-nav">
@@ -327,8 +327,8 @@
 						<li><a href="index.html"><i class="icon-bar-chart"></i><span class="hidden-tablet"> Dashboard</span></a></li>	
 						<li><a href="{{('/all-category')}}"><i class="icon-envelope"></i><span class="hidden-tablet"> All Category</span></a></li>
 						<li><a href="{{('/add-category')}}"><i class="icon-tasks"></i><span class="hidden-tablet"> Add Category</span></a></li>
-						<li><a href="ui.html"><i class="icon-eye-open"></i><span class="hidden-tablet"> UI Features</span></a></li>
-						<li><a href="widgets.html"><i class="icon-dashboard"></i><span class="hidden-tablet"> Widgets</span></a></li>
+						<li><a href="{{('/all-post')}}"><i class="icon-eye-open"></i><span class="hidden-tablet"> All Posts</span></a></li>
+						<li><a href="{{('/add-post')}}"><i class="icon-dashboard"></i><span class="hidden-tablet"> Add Post</span></a></li>
 						<li>
 							<a class="dropmenu" href="#"><i class="icon-folder-close-alt"></i><span class="hidden-tablet"> Dropdown</span><span class="label label-important"> 3 </span></a>
 							<ul>
@@ -427,8 +427,26 @@
   <script src="{{asset('backend/js/retina.js')}}"></script>
   <script src="{{asset('backend/js/custom.js')}}"></script>
 	<!-- end: JavaScript-->
+
+	<!-- CKEditor Javascript -->
+	<script src="https://cdn.ckeditor.com/4.19.1/full-all/ckeditor.js"></script>
+	
+	<!-- Bootbox CDN -->
+	<script type="text/javascript" src="{{asset('https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js')}}"></script>
+	<script>
+		$(document).on("click", "#delete", function(e){
+			e.preventDefault();
+			var link = $(this).attr("href");
+			bootbox.confirm("Are you want to delete!!", function(confirmed){
+				if(confirmed){
+					window.location.href = link; 
+				}
+			})
+		});
+	</script>
+	<script>
+		CKEDITOR.replace( 'editor' );
+	</script>
 	
 </body>
-
-<!-- Mirrored from bootstrapmaster.com/live/metro/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 08 Jan 2018 16:56:47 GMT -->
 </html>

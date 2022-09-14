@@ -33,7 +33,7 @@
 
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
     <div class="container">
-      <a href="{{('/')}}" class="text-uppercase nav_logo">Baby Library</a>
+      <a href="{{('/')}}" class="text-uppercase nav_logo">Kids Fun</a>
 
       <button 
         type="button"
@@ -86,7 +86,7 @@
 
 
 <!-- Cards and Category -->
-<div>
+<div class="">
   @yield('banner')
 </div>
 
@@ -96,6 +96,7 @@
       @yield('books')
       @yield('blog')
       @yield('full_post')
+      @yield('pdf_details')
     </div>
 
     <div class="col-4">
@@ -105,61 +106,38 @@
 
       <div class="border">
         <ul>
-          <div class="row d-flex justify-content-center category_item">
-            <img src="{{URL::to('frontend/images/play-button.png')}}" alt="" style="width:40px; height:40px;">
-            <a style="margin-left:20px; margin-top:10px">Rabindranath</a>
+          <?php 
+            $all_categories_info = DB::table('tbl_category')->get();
+
+            foreach($all_categories_info as $v_category)
+            {            
+          ?>
+          <div class="row d-flex category_item">
+            <img class="lay_cat_img" src="{{URL::to('frontend/images/play-button.png')}}" alt="">
+            <a class="lay_cat_link">{{($v_category->category_name)}}</a>
           </div>
-          <div class="row d-flex justify-content-center category_item">
-            <img src="{{URL::to('frontend/images/play-button.png')}}" alt="" style="width:40px; height:40px;">
-            <a style="margin-left:20px; margin-top:10px">Rabindranath</a>
-          </div>
-          <div class="row d-flex justify-content-center category_item">
-            <img src="{{URL::to('frontend/images/play-button.png')}}" alt="" style="width:40px; height:40px;">
-            <a style="margin-left:20px; margin-top:10px">Rabindranath</a>
-          </div>
-          <div class="row d-flex justify-content-center category_item">
-            <img src="{{URL::to('frontend/images/play-button.png')}}" alt="" style="width:40px; height:40px;">
-            <a style="margin-left:20px; margin-top:10px">Rabindranath</a>
-          </div>
-          <div class="row d-flex justify-content-center category_item">
-            <img src="{{URL::to('frontend/images/play-button.png')}}" alt="" style="width:40px; height:40px;">
-            <a style="margin-left:20px; margin-top:10px">Rabindranath</a>
-          </div>
-          <div class="row d-flex justify-content-center category_item">
-            <img src="{{URL::to('frontend/images/play-button.png')}}" alt="" style="width:40px; height:40px;">
-            <a style="margin-left:20px; margin-top:10px">Rabindranath</a>
-          </div>
-          <div class="row d-flex justify-content-center category_item">
-            <img src="{{URL::to('frontend/images/play-button.png')}}" alt="" style="width:40px; height:40px;">
-            <a style="margin-left:20px; margin-top:10px">Rabindranath</a>
-          </div>
-          <div class="row d-flex justify-content-center category_item">
-            <img src="{{URL::to('frontend/images/play-button.png')}}" alt="" style="width:40px; height:40px;">
-            <a style="margin-left:20px; margin-top:10px">Rabindranath</a>
-          </div>
+         <?php } ?>
         </ul>
       </div>
-
       <div class="categories_border"></div>
 
       <div class="border">
         <div class="section_title d-flex justify-content-center categories">
           <h4>Popular Posts</h4>
         </div>
-        
         <ul>
-          <div class="row d-flex category_item">
-            <img src="{{URL::to('frontend/images/play-button.png')}}" alt="" style="width:80px; height:80px; margin-left: 50px">
-            <a style="margin-left: 20px; margin-top:10px; margin-right:0px">৫০টি কবিতার বই</a>
-          </div>
-          <div class="row d-flex category_item">
-            <img src="{{URL::to('frontend/images/play-button.png')}}" alt="" style="width:80px; height:80px; margin-left: 50px">
-            <a style="margin-left: 20px; margin-top:10px; margin-right:0px">৪৫টি বইয়ের লিঙ্ক এক সাথে</a>
-          </div>
-          <div class="row d-flex category_item">
-            <img src="{{URL::to('frontend/images/play-button.png')}}" alt="" style="width:80px; height:80px; margin-left: 50px">
-            <a style="margin-left: 20px; margin-top:10px; margin-right:0px">প্রথম আলো - সুনীল গঙ্গোপাধ্যায়</a>
-          </div>
+          <?php
+            $all_posts = DB::table('tbl_posts')->get();
+            $post_count = count($all_posts);
+
+            for($count = 0; $count<$post_count; $count++)
+            { 
+            ?>
+            <div class="row d-flex category_item">
+              <img class="lay_post_img" src="{{URL::to('frontend/images/play-button.png')}}" alt="">
+              <a href="{{URL::to('/full-post/'.$all_posts[$count]->post_id)}}" class="lay_post_link"><?php echo ($all_posts[$count]->post_title) ?></a>
+            </div>
+          <?php } ?>
       </div>
     </div>
     </div>
@@ -170,8 +148,6 @@
 <div class="container text-center">
   @yield('videos')
 </div>
-
-
 
 <!-- Blogs -->
 
