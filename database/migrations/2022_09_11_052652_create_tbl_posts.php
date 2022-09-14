@@ -17,6 +17,7 @@ return new class extends Migration
             $table->increments('post_id');
             $table->text('post_title');
             $table->text('post_subtitle');
+            $table->text('post_intro');
             $table->text('post_details');
             $table->timestamps();
         });

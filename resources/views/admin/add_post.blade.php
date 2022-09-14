@@ -51,6 +51,12 @@
 							  </div>
 							</div>
 							<div class="control-group">
+							  <label class="control-label" for="date01">Post Intro</label>
+							  <div class="controls">
+								<textarea type="text" class="input x-large" name="post_intro"></textarea>
+							  </div>
+							</div>
+							<div class="control-group">
 							  <label class="control-label" for="date01">Post Body</label>
 							  <div class="controls">
 								<textarea type="text" class="input x-large" name="post_details" id="editor"></textarea>

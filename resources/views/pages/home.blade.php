@@ -4,262 +4,92 @@
 @endsection
 
 @section('books')
-    <div class="row">
-      <div class="col text-center">
-        <div class="section_title">
-          <h4>Popular Books</h4>
-        </div>
-      </div>
-    </div>
-      <div class="row  d-flex justify-content-around">
-      <div class="product-item women">
-            <div class="product product_filter">
-              <div class="product_image">
-                <img src="{{URL::to('frontend/images/cover.jpg')}}" alt="">
-              </div>
-              <div class="favorite"></div>
-              <div class="product_info">
-                <h6 class="product_name"><a href="#" data-toggle="modal" data-target="#product_details">নভেরা বিভুঁইয়ে স্বভূমে - আনা ইসলাম</a></h6>
-              </div>
-            </div>
-            <div class="red_button add_to_cart_button"><a href="#">Add to Cart</a></div>
-          </div>
-
-          
-          
-          <!-- Modals -->
-          <div class="modal fade" id="product_details">
-          <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+  <div class="row">
+    <div class="col text-center">
+      <div class="section_title">
+        <h4>Popular Books</h4>
       </div>
     </div>
   </div>
-</div>
-
-          <div class="product-item women">
-            <div class="product product_filter">
-              <div class="product_image">
-                <img src="{{URL::to('frontend/images/cover.jpg')}}" alt="">
-              </div>
-              <div class="favorite"></div>
-              <div class="product_info">
-                <h6 class="product_name"><a href="#" data-toggle="modal" data-target="#product_details">নভেরা বিভুঁইয়ে স্বভূমে - আনা ইসলাম</a></h6>
-              </div>
-            </div>
-            <div class="red_button add_to_cart_button"><a href="#">Add to Cart</a></div>
-          </div>
-
-          <div class="product-item women">
-            <div class="product product_filter">
-              <div class="product_image">
-                <img src="{{URL::to('frontend/images/cover.jpg')}}" alt="">
-              </div>
-              <div class="favorite"></div>
-              <div class="product_info">
-                <h6 class="product_name"><a href="#" data-toggle="modal" data-target="#product_details">নভেরা বিভুঁইয়ে স্বভূমে - আনা ইসলাম</a></h6>
-              </div>
-            </div>
-            <div class="red_button add_to_cart_button"><a href="#">Add to Cart</a></div>
-          </div>
-
-          <div class="product-item women">
-            <div class="product product_filter">
-              <div class="product_image">
-                <img src="{{URL::to('frontend/images/cover.jpg')}}" alt="">
-              </div>
-              <div class="favorite"></div>
-             <div class="product_info">
-                <h6 class="product_name"><a href="#" data-toggle="modal" data-target="#product_details">নভেরা বিভুঁইয়ে স্বভূমে - আনা ইসলাম</a></h6>
-              </div>
-            </div>
-            <div class="red_button add_to_cart_button"><a href="#">Add to Cart</a></div>
-          </div>
+  <div class="row  d-flex justify-content-around">
+    <div class="col-3 product-item women">
+      <div class="product product_filter">
+        <div class="product_image">
+          <img src="{{URL::to('frontend/images/cover.jpg')}}" alt="">
+        </div>
+        <div class="favorite"></div>
+        <div class="product_info">
+          <h6 class="product_name"><a href="#" data-toggle="modal" data-target="#product_details">নভেরা বিভুঁইয়ে স্বভূমে - আনা ইসলাম</a></h6>
+        </div>
       </div>
+      <div class="red_button add_to_cart_button"><a href="#">Add to Cart</a></div>
+    </div>
+  </div>
 
-      <div class="row  d-flex justify-content-around">
-      <div class="product-item women">
-            <div class="product product_filter">
-              <div class="product_image">
-                <img src="{{URL::to('frontend/images/cover.jpg')}}" alt="">
-              </div>
-              <div class="favorite"></div>
-              <div class="product_info">
-                <h6 class="product_name"><a href="#" data-toggle="modal" data-target="#product_details">নভেরা বিভুঁইয়ে স্বভূমে - আনা ইসলাম</a></h6>
-              </div>
-            </div>
-            <div class="red_button add_to_cart_button"><a href="#">Add to Cart</a></div>
-          </div>
-
-          <div class="product-item women">
-            <div class="product product_filter">
-              <div class="product_image">
-                <img src="{{URL::to('frontend/images/cover.jpg')}}" alt="">
-              </div>
-              <div class="favorite"></div>
-              <div class="product_info">
-                <h6 class="product_name"><a href="#" data-toggle="modal" data-target="#product_details">নভেরা বিভুঁইয়ে স্বভূমে - আনা ইসলাম</a></h6>
-              </div>
-            </div>
-            <div class="red_button add_to_cart_button"><a href="#">Add to Cart</a></div>
-          </div>
-
-          <div class="product-item women">
-            <div class="product product_filter">
-              <div class="product_image">
-                <img src="{{URL::to('frontend/images/cover.jpg')}}" alt="">
-              </div>
-              <div class="favorite"></div>
-              <div class="product_info">
-                <h6 class="product_name"><a href="#" data-toggle="modal" data-target="#product_details">নভেরা বিভুঁইয়ে স্বভূমে - আনা ইসলাম</a></h6>
-              </div>
-            </div>
-            <div class="red_button add_to_cart_button"><a href="#">Add to Cart</a></div>
-          </div>
-
-          <div class="product-item women">
-            <div class="product product_filter">
-              <div class="product_image">
-                <img src="{{URL::to('frontend/images/cover.jpg')}}" alt="">
-              </div>
-              <div class="favorite"></div>
-              <div class="product_info">
-                <h6 class="product_name"><a href="#" data-toggle="modal" data-target="#product_details">নভেরা বিভুঁইয়ে স্বভূমে - আনা ইসলাম</a></h6>
-              </div>
-            </div>
-            <div class="red_button add_to_cart_button"><a href="#">Add to Cart</a></div>
-          </div>
-      </div>
-
-      <div class="row  d-flex justify-content-around">
-      <div class="product-item women">
-            <div class="product product_filter">
-              <div class="product_image">
-                <img src="{{URL::to('frontend/images/cover.jpg')}}" alt="">
-              </div>
-              <div class="favorite"></div>
-              <div class="product_info">
-                <h6 class="product_name"><a href="#" data-toggle="modal" data-target="#product_details">নভেরা বিভুঁইয়ে স্বভূমে - আনা ইসলাম</a></h6>
-              </div>
-            </div>
-            <div class="red_button add_to_cart_button"><a href="#">Add to Cart</a></div>
-          </div>
-
-          <div class="product-item women">
-            <div class="product product_filter">
-              <div class="product_image">
-                <img src="{{URL::to('frontend/images/cover.jpg')}}" alt="">
-              </div>
-              <div class="favorite"></div>
-              <div class="product_info">
-                <h6 class="product_name"><a href="#" data-toggle="modal" data-target="#product_details">নভেরা বিভুঁইয়ে স্বভূমে - আনা ইসলাম</a></h6>
-              </div>
-            </div>
-            <div class="red_button add_to_cart_button"><a href="#">Add to Cart</a></div>
-          </div>
-
-          <div class="product-item women">
-            <div class="product product_filter">
-              <div class="product_image">
-                <img src="{{URL::to('frontend/images/cover.jpg')}}" alt="">
-              </div>
-              <div class="favorite"></div>
-              <div class="product_info">
-                <h6 class="product_name"><a href="#" data-toggle="modal" data-target="#product_details">নভেরা বিভুঁইয়ে স্বভূমে - আনা ইসলাম</a></h6>
-              </div>
-            </div>
-            <div class="red_button add_to_cart_button"><a href="#">Add to Cart</a></div>
-          </div>
-
-          <div class="product-item women">
-            <div class="product product_filter">
-              <div class="product_image">
-                <img src="{{URL::to('frontend/images/cover.jpg')}}" alt="">
-              </div>
-              <div class="favorite"></div>
-              <div class="product_info">
-                <h6 class="product_name"><a href="#" data-toggle="modal" data-target="#product_details">নভেরা বিভুঁইয়ে স্বভূমে - আনা ইসলাম</a></h6>
-              </div>
-            </div>
-            <div class="red_button add_to_cart_button"><a href="#">Add to Cart</a></div>
-          </div>
-      </div>
-
-      <div style="margin-top:15px; margin-left:15%">
-        <a href="#about" class="button" style="width:80%; justify-content:center"><i class="uil uil-user button_icon"></i>
-          More about me
-        </a>
-      </div>
+  <div style="margin-top:15px; margin-left:15%">
+    <a href="#about" class="button" style="width:80%; justify-content:center"><i class="uil uil-user button_icon"></i>
+      All Books
+    </a>
+  </div>
 @endsection
 
 
 @section('videos')
 
-<div class="section_title">
-      <h4>Videos</h4>
+  <div class="section_title">
+        <h4>Videos</h4>
+  </div>
+
+  <div class="row d-flex justify-content-around">
+    <div class="col-md-4">
+      <img src="{{URL::to('frontend/images/video_1.jpg')}}" alt="" class="img-fluid">
+      <img src="{{URL::to('frontend/images/play-button.png')}}" class="play-btn" data-toggle="modal" data-target="#exampleModalCenter">
     </div>
 
-    <div class="row d-flex justify-content-around">
-      <div class="col-md-4">
-        <img src="{{URL::to('frontend/images/video_1.jpg')}}" alt="" class="img-fluid">
-        <img src="{{URL::to('frontend/images/play-button.png')}}" class="play-btn" data-toggle="modal" data-target="#exampleModalCenter">
-      </div>
-
-      <div class="col-md-4">
-        <img src="{{URL::to('frontend/images/video_2.jpg')}}" alt="" class="img-fluid">
-        <img src="{{URL::to('frontend/images/play-button.png')}}" class="play-btn" data-toggle="modal" data-target="#exampleModalCenter">
-      </div>
-
-      <div class="col-md-4">
-        <img src="{{URL::to('frontend/images/video_3.jpg')}}" alt="" class="img-fluid">
-        <img src="{{URL::to('frontend/images/play-button.png')}}" class="play-btn" data-toggle="modal" data-target="#exampleModalCenter">
-      </div>
+    <div class="col-md-4">
+      <img src="{{URL::to('frontend/images/video_2.jpg')}}" alt="" class="img-fluid">
+      <img src="{{URL::to('frontend/images/play-button.png')}}" class="play-btn" data-toggle="modal" data-target="#exampleModalCenter">
     </div>
 
-    <div class="row d-flex justify-content-around">
-      <div class="col-md-4">
-        <img src="{{URL::to('frontend/images/video_1.jpg')}}" alt="" class="img-fluid">
-        <img src="{{URL::to('frontend/images/play-button.png')}}" class="play-btn" data-toggle="modal" data-target="#exampleModalCenter">
-      </div>
+    <div class="col-md-4">
+      <img src="{{URL::to('frontend/images/video_3.jpg')}}" alt="" class="img-fluid">
+      <img src="{{URL::to('frontend/images/play-button.png')}}" class="play-btn" data-toggle="modal" data-target="#exampleModalCenter">
+    </div>
+  </div>
 
-      <div class="col-md-4">
-        <img src="{{URL::to('frontend/images/video_2.jpg')}}" alt="" class="img-fluid">
-        <img src="{{URL::to('frontend/images/play-button.png')}}" class="play-btn" data-toggle="modal" data-target="#exampleModalCenter">
-      </div>
-
-      <div class="col-md-4">
-        <img src="{{URL::to('frontend/images/video_3.jpg')}}" alt="" class="img-fluid">
-        <img src="{{URL::to('frontend/images/play-button.png')}}" class="play-btn" data-toggle="modal" data-target="#exampleModalCenter">
-      </div>
+  <div class="row d-flex justify-content-around">
+    <div class="col-md-4">
+      <img src="{{URL::to('frontend/images/video_1.jpg')}}" alt="" class="img-fluid">
+      <img src="{{URL::to('frontend/images/play-button.png')}}" class="play-btn" data-toggle="modal" data-target="#exampleModalCenter">
     </div>
 
-    <div class="row d-flex justify-content-around">
-      <div class="col-md-4">
-        <img src="{{URL::to('frontend/images/video_1.jpg')}}" alt="" class="img-fluid">
-        <img src="{{URL::to('frontend/images/play-button.png')}}" class="play-btn" data-toggle="modal" data-target="#exampleModalCenter">
-      </div>
-
-      <div class="col-md-4">
-        <img src="{{URL::to('frontend/images/video_2.jpg')}}" alt="" class="img-fluid">
-        <img src="{{URL::to('frontend/images/play-button.png')}}" class="play-btn" data-toggle="modal" data-target="#exampleModalCenter">
-      </div>
-
-      <div class="col-md-4">
-        <img src="{{URL::to('frontend/images/video_3.jpg')}}" alt="" class="img-fluid">
-        <img src="{{URL::to('frontend/images/play-button.png')}}" class="play-btn" data-toggle="modal" data-target="#exampleModalCenter">
-      </div>
+    <div class="col-md-4">
+      <img src="{{URL::to('frontend/images/video_2.jpg')}}" alt="" class="img-fluid">
+      <img src="{{URL::to('frontend/images/play-button.png')}}" class="play-btn" data-toggle="modal" data-target="#exampleModalCenter">
     </div>
+
+    <div class="col-md-4">
+      <img src="{{URL::to('frontend/images/video_3.jpg')}}" alt="" class="img-fluid">
+      <img src="{{URL::to('frontend/images/play-button.png')}}" class="play-btn" data-toggle="modal" data-target="#exampleModalCenter">
+    </div>
+  </div>
+
+  <div class="row d-flex justify-content-around">
+    <div class="col-md-4">
+      <img src="{{URL::to('frontend/images/video_1.jpg')}}" alt="" class="img-fluid">
+      <img src="{{URL::to('frontend/images/play-button.png')}}" class="play-btn" data-toggle="modal" data-target="#exampleModalCenter">
+    </div>
+
+    <div class="col-md-4">
+      <img src="{{URL::to('frontend/images/video_2.jpg')}}" alt="" class="img-fluid">
+      <img src="{{URL::to('frontend/images/play-button.png')}}" class="play-btn" data-toggle="modal" data-target="#exampleModalCenter">
+    </div>
+
+    <div class="col-md-4">
+      <img src="{{URL::to('frontend/images/video_3.jpg')}}" alt="" class="img-fluid">
+      <img src="{{URL::to('frontend/images/play-button.png')}}" class="play-btn" data-toggle="modal" data-target="#exampleModalCenter">
+    </div>
+  </div>
 </div>
 
 <div class="modal fade" id="exampleModalCenter">

@@ -22,7 +22,7 @@ use App\Http\Controllers\PostController;
 Route::get('/', [HomeController::class, 'index']);
 
 // Blog Related Routes
-Route::get('/blog', [HomeController::class, 'blog']);
+Route::get('/blog', [HomeController::class, 'all_post']);
 Route::get('/story_books', [HomeController::class, 'story_books']);
 Route::get('/pdf-details', [HomeController::class, 'pdf_details']);
 

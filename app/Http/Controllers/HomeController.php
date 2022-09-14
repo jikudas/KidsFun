@@ -18,8 +18,8 @@ class HomeController extends Controller
         return view('pages.home');
     }
     
-    public function blog()
-    {
+    public function all_post()
+    {  
         return view('pages.blog');
     }
 
